@@ -1,0 +1,14 @@
+{{define "content"}}
+<h2>Your Cart</h2>
+
+<p>These are the items you've added to the cart:</p>
+<ul>
+    <li>Pink Dress (Age 0-5, Girls)</li>
+    <li>Blue Shirt (Age 5-10, Boys)</li>
+    <!-- Replace with dynamic list in later versions -->
+</ul>
+
+<form method="POST" action="/checkout">
+    <button type="submit">Proceed to Checkout</button>
+</form>
+{{end}}

@@ -36,3 +36,4 @@ RUN chmod +x skdresses-backend
 CMD ["./skdresses-backend"]
 
 #docker run -p 8080:8080 --env-file .env skdresses-backend
+#docker build -t skdresses-backend 

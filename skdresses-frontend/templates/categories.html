@@ -1,0 +1,27 @@
+{{define "content"}}
+<h2>Shop by Category</h2>
+
+<div>
+  <h3>Boys</h3>
+  <ul>
+    <li>0-5 Years: <button onclick="addToCart('Boys 0-5')">Add to Cart</button></li>
+    <li>5-10 Years: <button onclick="addToCart('Boys 5-10')">Add to Cart</button></li>
+    <li>10-12 Years: <button onclick="addToCart('Boys 10-12')">Add to Cart</button></li>
+  </ul>
+</div>
+
+<div>
+  <h3>Girls</h3>
+  <ul>
+    <li>0-5 Years: <button onclick="addToCart('Girls 0-5')">Add to Cart</button></li>
+    <li>5-10 Years: <button onclick="addToCart('Girls 5-10')">Add to Cart</button></li>
+    <li>10-12 Years: <button onclick="addToCart('Girls 10-12')">Add to Cart</button></li>
+  </ul>
+</div>
+
+<script>
+function addToCart(item) {
+  alert(item + " added to cart (not yet connected to backend)");
+}
+</script>
+{{end}}

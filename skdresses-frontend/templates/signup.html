@@ -1,0 +1,12 @@
+{{define "signup"}}
+  {{template "layout" .}}
+{{end}}
+
+{{define "content"}}
+<h2>Signup</h2>
+<form method="POST" action="/signup">
+  <label>Email: <input type="email" name="email" /></label><br />
+  <label>Password: <input type="password" name="password" /></label><br />
+  <button type="submit">Signup</button>
+</form>
+{{end}}
